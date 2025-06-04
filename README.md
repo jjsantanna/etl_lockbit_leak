@@ -2,7 +2,7 @@
 
 We've Extract, Tansformed, and Load (ETL) the leaked data related to Lockbit (at: lockbitapyx2kr5b7ma7qn6ziwqgbrij2czhcbojuxmgnwpkgv2yx2yd.onion). 
 We've uncompressed the original file 'paneldb_dump.zip', it reveal a single file 'paneldb_dump.sql', and for each table in this .sql file we've created an isolated .parquet file.
-This is how you can easily load the data to begin you analysis.  
+This is how you can easily load the data to begin your analysis.  
 
 ```
 # !pip install pandas pyarrow requests
